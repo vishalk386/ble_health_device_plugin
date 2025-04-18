@@ -1,0 +1,108 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SmartBLEHealthDeviceKit
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import CoreBluetooth
+import CryptoKit
+import Foundation
+import Security
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum HealthDataType : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case heartRate
+  case glucose
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SmartBLEHealthDeviceKit.HealthDataType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SmartBLEHealthDeviceKit.HealthDataType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct HealthData : Swift.Codable {
+  public let type: SmartBLEHealthDeviceKit.HealthDataType
+  public let value: Swift.Int
+  public let timestamp: Foundation.Date
+  public init(type: SmartBLEHealthDeviceKit.HealthDataType, value: Swift.Int, timestamp: Foundation.Date)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public typealias DevicesHandler = (Swift.Result<[SmartBLEHealthDeviceKit.DeviceInfo], SmartBLEHealthDeviceKit.HealthBLEError>) -> Swift.Void
+public typealias DataHandler = (Swift.Result<SmartBLEHealthDeviceKit.HealthData, SmartBLEHealthDeviceKit.HealthBLEError>) -> Swift.Void
+public typealias CompletionHandler = (Swift.Result<Swift.Void, SmartBLEHealthDeviceKit.HealthBLEError>) -> Swift.Void
+public enum HealthBLEError : Swift.Error, Foundation.LocalizedError {
+  case bluetoothNotReady
+  case connectionFailed(Swift.String)
+  case operationFailed(Swift.String)
+  case accessDenied
+  case securityError(Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public struct DeviceInfo : Swift.Codable {
+  public let id: Foundation.UUID
+  public let name: Swift.String
+  public let isConnected: Swift.Bool
+  public init(id: Foundation.UUID, name: Swift.String, isConnected: Swift.Bool)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum DeviceType : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case heartRate
+  case glucose
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SmartBLEHealthDeviceKit.DeviceType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SmartBLEHealthDeviceKit.DeviceType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BLEOperation : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case read
+  case write
+  case notify
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SmartBLEHealthDeviceKit.BLEOperation]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [SmartBLEHealthDeviceKit.BLEOperation] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct DeviceConfiguration : Swift.Codable {
+  public let deviceId: Foundation.UUID
+  public let deviceType: SmartBLEHealthDeviceKit.DeviceType
+  public let allowedOperations: [SmartBLEHealthDeviceKit.BLEOperation]
+  public init(deviceId: Foundation.UUID, deviceType: SmartBLEHealthDeviceKit.DeviceType, allowedOperations: [SmartBLEHealthDeviceKit.BLEOperation])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class HealthBLEManager {
+  public init(configurations: [SmartBLEHealthDeviceKit.DeviceConfiguration])
+  public func startScanning(handler: @escaping SmartBLEHealthDeviceKit.DevicesHandler)
+  public func connect(to deviceId: Foundation.UUID, handler: @escaping SmartBLEHealthDeviceKit.CompletionHandler)
+  public func disconnect(from deviceId: Foundation.UUID, handler: @escaping SmartBLEHealthDeviceKit.CompletionHandler)
+  public func readCharacteristic(deviceId: Foundation.UUID, serviceUUID: CoreBluetooth.CBUUID, characteristicUUID: Swift.String, handler: @escaping SmartBLEHealthDeviceKit.DataHandler)
+  public func writeCharacteristic(deviceId: Foundation.UUID, serviceUUID: CoreBluetooth.CBUUID, characteristicUUID: Swift.String, data: SmartBLEHealthDeviceKit.HealthData, handler: @escaping SmartBLEHealthDeviceKit.CompletionHandler)
+  public func listenForNotifications(deviceId: Foundation.UUID, serviceUUID: CoreBluetooth.CBUUID, characteristicUUID: Swift.String, handler: @escaping SmartBLEHealthDeviceKit.DataHandler)
+  @objc deinit
+}
+extension SmartBLEHealthDeviceKit.HealthDataType : Swift.Equatable {}
+extension SmartBLEHealthDeviceKit.HealthDataType : Swift.Hashable {}
+extension SmartBLEHealthDeviceKit.HealthDataType : Swift.RawRepresentable {}
+extension SmartBLEHealthDeviceKit.DeviceType : Swift.Equatable {}
+extension SmartBLEHealthDeviceKit.DeviceType : Swift.Hashable {}
+extension SmartBLEHealthDeviceKit.DeviceType : Swift.RawRepresentable {}
+extension SmartBLEHealthDeviceKit.BLEOperation : Swift.Equatable {}
+extension SmartBLEHealthDeviceKit.BLEOperation : Swift.Hashable {}
+extension SmartBLEHealthDeviceKit.BLEOperation : Swift.RawRepresentable {}

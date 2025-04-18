@@ -1,0 +1,2934 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SmartBLEHealthDeviceKit",
+    "printedName": "SmartBLEHealthDeviceKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HealthDataType",
+        "printedName": "HealthDataType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "heartRate",
+            "printedName": "heartRate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.HealthDataType.Type) -> SmartBLEHealthDeviceKit.HealthDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HealthDataType",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                    "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthDataType",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO9heartRateyA2CmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthDataTypeO9heartRateyA2CmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Var",
+            "name": "glucose",
+            "printedName": "glucose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.HealthDataType.Type) -> SmartBLEHealthDeviceKit.HealthDataType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HealthDataType",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                    "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthDataType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthDataType",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO7glucoseyA2CmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthDataTypeO7glucoseyA2CmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartBLEHealthDeviceKit.HealthDataType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HealthDataType",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                    "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthDataTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO8rawValueSSvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthDataTypeO8rawValueSSvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO8rawValueSSvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit14HealthDataTypeO8rawValueSSvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SmartBLEHealthDeviceKit.HealthDataType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HealthDataType",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                    "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthDataTypeO8allCasesSayACGvpZ",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SmartBLEHealthDeviceKit.HealthDataType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthDataType",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s23SmartBLEHealthDeviceKit14HealthDataTypeO8allCasesSayACGvgZ",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO",
+        "mangledName": "$s23SmartBLEHealthDeviceKit14HealthDataTypeO",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SmartBLEHealthDeviceKit.HealthDataType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthDataType",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HealthData",
+        "printedName": "HealthData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HealthDataType",
+                "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV4typeAA0eF4TypeOvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV4typeAA0eF4TypeOvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HealthDataType",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                    "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV4typeAA0eF4TypeOvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV4typeAA0eF4TypeOvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV5valueSivp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV5valueSivp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV5valueSivg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV5valueSivg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV9timestamp10Foundation4DateVvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV9timestamp10Foundation4DateVvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV9timestamp10Foundation4DateVvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV9timestamp10Foundation4DateVvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:value:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HealthData",
+                "printedName": "SmartBLEHealthDeviceKit.HealthData",
+                "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HealthDataType",
+                "printedName": "SmartBLEHealthDeviceKit.HealthDataType",
+                "usr": "s:23SmartBLEHealthDeviceKit14HealthDataTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV4type5value9timestampAcA0eF4TypeO_Si10Foundation4DateVtcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV4type5value9timestampAcA0eF4TypeO_Si10Foundation4DateVtcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HealthData",
+                "printedName": "SmartBLEHealthDeviceKit.HealthData",
+                "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV",
+        "mangledName": "$s23SmartBLEHealthDeviceKit10HealthDataV",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HealthBLEError",
+        "printedName": "HealthBLEError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bluetoothNotReady",
+            "printedName": "bluetoothNotReady",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.HealthBLEError.Type) -> SmartBLEHealthDeviceKit.HealthBLEError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HealthBLEError",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                    "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthBLEError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO17bluetoothNotReadyyA2CmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthBLEErrorO17bluetoothNotReadyyA2CmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Var",
+            "name": "connectionFailed",
+            "printedName": "connectionFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.HealthBLEError.Type) -> (Swift.String) -> SmartBLEHealthDeviceKit.HealthBLEError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> SmartBLEHealthDeviceKit.HealthBLEError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthBLEError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO16connectionFailedyACSScACmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthBLEErrorO16connectionFailedyACSScACmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Var",
+            "name": "operationFailed",
+            "printedName": "operationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.HealthBLEError.Type) -> (Swift.String) -> SmartBLEHealthDeviceKit.HealthBLEError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> SmartBLEHealthDeviceKit.HealthBLEError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthBLEError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO15operationFailedyACSScACmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthBLEErrorO15operationFailedyACSScACmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Var",
+            "name": "accessDenied",
+            "printedName": "accessDenied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.HealthBLEError.Type) -> SmartBLEHealthDeviceKit.HealthBLEError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HealthBLEError",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                    "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthBLEError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO12accessDeniedyA2CmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthBLEErrorO12accessDeniedyA2CmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Var",
+            "name": "securityError",
+            "printedName": "securityError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.HealthBLEError.Type) -> (Swift.String) -> SmartBLEHealthDeviceKit.HealthBLEError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> SmartBLEHealthDeviceKit.HealthBLEError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.HealthBLEError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO13securityErroryACSScACmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthBLEErrorO13securityErroryACSScACmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit14HealthBLEErrorO16errorDescriptionSSSgvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit14HealthBLEErrorO16errorDescriptionSSSgvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO",
+        "mangledName": "$s23SmartBLEHealthDeviceKit14HealthBLEErrorO",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceInfo",
+        "printedName": "DeviceInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV2id10Foundation4UUIDVvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV2id10Foundation4UUIDVvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV2id10Foundation4UUIDVvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV2id10Foundation4UUIDVvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV4nameSSvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV4nameSSvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV4nameSSvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV4nameSSvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isConnected",
+            "printedName": "isConnected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV11isConnectedSbvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV11isConnectedSbvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV11isConnectedSbvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV11isConnectedSbvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:name:isConnected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "SmartBLEHealthDeviceKit.DeviceInfo",
+                "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV2id4name11isConnectedAC10Foundation4UUIDV_SSSbtcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV2id4name11isConnectedAC10Foundation4UUIDV_SSSbtcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "SmartBLEHealthDeviceKit.DeviceInfo",
+                "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV",
+        "mangledName": "$s23SmartBLEHealthDeviceKit0C4InfoV",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceType",
+        "printedName": "DeviceType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "heartRate",
+            "printedName": "heartRate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.DeviceType.Type) -> SmartBLEHealthDeviceKit.DeviceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceType",
+                    "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                    "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.DeviceType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceType",
+                        "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                        "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO9heartRateyA2CmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4TypeO9heartRateyA2CmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Var",
+            "name": "glucose",
+            "printedName": "glucose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.DeviceType.Type) -> SmartBLEHealthDeviceKit.DeviceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceType",
+                    "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                    "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.DeviceType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceType",
+                        "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                        "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO7glucoseyA2CmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4TypeO7glucoseyA2CmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartBLEHealthDeviceKit.DeviceType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceType",
+                    "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                    "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4TypeO8rawValueACSgSS_tcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO8rawValueSSvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4TypeO8rawValueSSvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO8rawValueSSvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit0C4TypeO8rawValueSSvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SmartBLEHealthDeviceKit.DeviceType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceType",
+                    "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                    "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO8allCasesSayACGvpZ",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C4TypeO8allCasesSayACGvpZ",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SmartBLEHealthDeviceKit.DeviceType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceType",
+                        "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                        "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO8allCasesSayACGvgZ",
+                "mangledName": "$s23SmartBLEHealthDeviceKit0C4TypeO8allCasesSayACGvgZ",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO",
+        "mangledName": "$s23SmartBLEHealthDeviceKit0C4TypeO",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SmartBLEHealthDeviceKit.DeviceType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceType",
+                        "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                        "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BLEOperation",
+        "printedName": "BLEOperation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "read",
+            "printedName": "read",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.BLEOperation.Type) -> SmartBLEHealthDeviceKit.BLEOperation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BLEOperation",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                    "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BLEOperation",
+                        "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                        "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO4readyA2CmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit12BLEOperationO4readyA2CmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Var",
+            "name": "write",
+            "printedName": "write",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.BLEOperation.Type) -> SmartBLEHealthDeviceKit.BLEOperation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BLEOperation",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                    "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BLEOperation",
+                        "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                        "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO5writeyA2CmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit12BLEOperationO5writeyA2CmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Var",
+            "name": "notify",
+            "printedName": "notify",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartBLEHealthDeviceKit.BLEOperation.Type) -> SmartBLEHealthDeviceKit.BLEOperation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BLEOperation",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                    "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BLEOperation",
+                        "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                        "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO6notifyyA2CmF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit12BLEOperationO6notifyyA2CmF",
+            "moduleName": "SmartBLEHealthDeviceKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SmartBLEHealthDeviceKit.BLEOperation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BLEOperation",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                    "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO8rawValueACSgSS_tcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit12BLEOperationO8rawValueACSgSS_tcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO8rawValueSSvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit12BLEOperationO8rawValueSSvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO8rawValueSSvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit12BLEOperationO8rawValueSSvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SmartBLEHealthDeviceKit.BLEOperation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BLEOperation",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                    "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO8allCasesSayACGvpZ",
+            "mangledName": "$s23SmartBLEHealthDeviceKit12BLEOperationO8allCasesSayACGvpZ",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SmartBLEHealthDeviceKit.BLEOperation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BLEOperation",
+                        "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                        "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO8allCasesSayACGvgZ",
+                "mangledName": "$s23SmartBLEHealthDeviceKit12BLEOperationO8allCasesSayACGvgZ",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO",
+        "mangledName": "$s23SmartBLEHealthDeviceKit12BLEOperationO",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SmartBLEHealthDeviceKit.BLEOperation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BLEOperation",
+                        "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                        "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceConfiguration",
+        "printedName": "DeviceConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV8deviceId10Foundation4UUIDVvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV8deviceId10Foundation4UUIDVvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV8deviceId10Foundation4UUIDVvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV8deviceId10Foundation4UUIDVvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceType",
+            "printedName": "deviceType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceType",
+                "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV10deviceTypeAA0cG0Ovp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV10deviceTypeAA0cG0Ovp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceType",
+                    "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                    "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV10deviceTypeAA0cG0Ovg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV10deviceTypeAA0cG0Ovg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowedOperations",
+            "printedName": "allowedOperations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SmartBLEHealthDeviceKit.BLEOperation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BLEOperation",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                    "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV17allowedOperationsSayAA12BLEOperationOGvp",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV17allowedOperationsSayAA12BLEOperationOGvp",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SmartBLEHealthDeviceKit.BLEOperation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BLEOperation",
+                        "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                        "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV17allowedOperationsSayAA12BLEOperationOGvg",
+                "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV17allowedOperationsSayAA12BLEOperationOGvg",
+                "moduleName": "SmartBLEHealthDeviceKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(deviceId:deviceType:allowedOperations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceConfiguration",
+                "printedName": "SmartBLEHealthDeviceKit.DeviceConfiguration",
+                "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceType",
+                "printedName": "SmartBLEHealthDeviceKit.DeviceType",
+                "usr": "s:23SmartBLEHealthDeviceKit0C4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SmartBLEHealthDeviceKit.BLEOperation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BLEOperation",
+                    "printedName": "SmartBLEHealthDeviceKit.BLEOperation",
+                    "usr": "s:23SmartBLEHealthDeviceKit12BLEOperationO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV8deviceId0F4Type17allowedOperationsAC10Foundation4UUIDV_AA0cH0OSayAA12BLEOperationOGtcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV8deviceId0F4Type17allowedOperationsAC10Foundation4UUIDV_AA0cH0OSayAA12BLEOperationOGtcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceConfiguration",
+                "printedName": "SmartBLEHealthDeviceKit.DeviceConfiguration",
+                "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV",
+        "mangledName": "$s23SmartBLEHealthDeviceKit0C13ConfigurationV",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HealthBLEManager",
+        "printedName": "HealthBLEManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HealthBLEManager",
+                "printedName": "SmartBLEHealthDeviceKit.HealthBLEManager",
+                "usr": "s:23SmartBLEHealthDeviceKit16HealthBLEManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SmartBLEHealthDeviceKit.DeviceConfiguration]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceConfiguration",
+                    "printedName": "SmartBLEHealthDeviceKit.DeviceConfiguration",
+                    "usr": "s:23SmartBLEHealthDeviceKit0C13ConfigurationV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23SmartBLEHealthDeviceKit16HealthBLEManagerC14configurationsACSayAA0C13ConfigurationVG_tcfc",
+            "mangledName": "$s23SmartBLEHealthDeviceKit16HealthBLEManagerC14configurationsACSayAA0C13ConfigurationVG_tcfc",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startScanning",
+            "printedName": "startScanning(handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[SmartBLEHealthDeviceKit.DeviceInfo], SmartBLEHealthDeviceKit.HealthBLEError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[SmartBLEHealthDeviceKit.DeviceInfo], SmartBLEHealthDeviceKit.HealthBLEError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SmartBLEHealthDeviceKit.DeviceInfo]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DeviceInfo",
+                            "printedName": "SmartBLEHealthDeviceKit.DeviceInfo",
+                            "usr": "s:23SmartBLEHealthDeviceKit0C4InfoV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23SmartBLEHealthDeviceKit16HealthBLEManagerC13startScanning7handleryys6ResultOySayAA0C4InfoVGAA0E8BLEErrorOGc_tF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit16HealthBLEManagerC13startScanning7handleryys6ResultOySayAA0C4InfoVGAA0E8BLEErrorOGc_tF",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(to:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), SmartBLEHealthDeviceKit.HealthBLEError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), SmartBLEHealthDeviceKit.HealthBLEError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23SmartBLEHealthDeviceKit16HealthBLEManagerC7connect2to7handlery10Foundation4UUIDV_ys6ResultOyytAA0E8BLEErrorOGctF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit16HealthBLEManagerC7connect2to7handlery10Foundation4UUIDV_ys6ResultOyytAA0E8BLEErrorOGctF",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(from:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), SmartBLEHealthDeviceKit.HealthBLEError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), SmartBLEHealthDeviceKit.HealthBLEError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23SmartBLEHealthDeviceKit16HealthBLEManagerC10disconnect4from7handlery10Foundation4UUIDV_ys6ResultOyytAA0E8BLEErrorOGctF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit16HealthBLEManagerC10disconnect4from7handlery10Foundation4UUIDV_ys6ResultOyytAA0E8BLEErrorOGctF",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readCharacteristic",
+            "printedName": "readCharacteristic(deviceId:serviceUUID:characteristicUUID:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBUUID",
+                "printedName": "CoreBluetooth.CBUUID",
+                "usr": "c:objc(cs)CBUUID"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<SmartBLEHealthDeviceKit.HealthData, SmartBLEHealthDeviceKit.HealthBLEError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<SmartBLEHealthDeviceKit.HealthData, SmartBLEHealthDeviceKit.HealthBLEError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthData",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthData",
+                        "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23SmartBLEHealthDeviceKit16HealthBLEManagerC18readCharacteristic8deviceId11serviceUUID014characteristicL07handlery10Foundation0L0V_So6CBUUIDCSSys6ResultOyAA0E4DataVAA0E8BLEErrorOGctF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit16HealthBLEManagerC18readCharacteristic8deviceId11serviceUUID014characteristicL07handlery10Foundation0L0V_So6CBUUIDCSSys6ResultOyAA0E4DataVAA0E8BLEErrorOGctF",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeCharacteristic",
+            "printedName": "writeCharacteristic(deviceId:serviceUUID:characteristicUUID:data:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBUUID",
+                "printedName": "CoreBluetooth.CBUUID",
+                "usr": "c:objc(cs)CBUUID"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HealthData",
+                "printedName": "SmartBLEHealthDeviceKit.HealthData",
+                "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), SmartBLEHealthDeviceKit.HealthBLEError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), SmartBLEHealthDeviceKit.HealthBLEError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23SmartBLEHealthDeviceKit16HealthBLEManagerC19writeCharacteristic8deviceId11serviceUUID014characteristicL04data7handlery10Foundation0L0V_So6CBUUIDCSSAA0E4DataVys6ResultOyytAA0E8BLEErrorOGctF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit16HealthBLEManagerC19writeCharacteristic8deviceId11serviceUUID014characteristicL04data7handlery10Foundation0L0V_So6CBUUIDCSSAA0E4DataVys6ResultOyytAA0E8BLEErrorOGctF",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listenForNotifications",
+            "printedName": "listenForNotifications(deviceId:serviceUUID:characteristicUUID:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBUUID",
+                "printedName": "CoreBluetooth.CBUUID",
+                "usr": "c:objc(cs)CBUUID"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<SmartBLEHealthDeviceKit.HealthData, SmartBLEHealthDeviceKit.HealthBLEError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<SmartBLEHealthDeviceKit.HealthData, SmartBLEHealthDeviceKit.HealthBLEError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthData",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthData",
+                        "usr": "s:23SmartBLEHealthDeviceKit10HealthDataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HealthBLEError",
+                        "printedName": "SmartBLEHealthDeviceKit.HealthBLEError",
+                        "usr": "s:23SmartBLEHealthDeviceKit14HealthBLEErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23SmartBLEHealthDeviceKit16HealthBLEManagerC22listenForNotifications8deviceId11serviceUUID014characteristicM07handlery10Foundation0M0V_So6CBUUIDCSSys6ResultOyAA0E4DataVAA0E8BLEErrorOGctF",
+            "mangledName": "$s23SmartBLEHealthDeviceKit16HealthBLEManagerC22listenForNotifications8deviceId11serviceUUID014characteristicM07handlery10Foundation0M0V_So6CBUUIDCSSys6ResultOyAA0E4DataVAA0E8BLEErrorOGctF",
+            "moduleName": "SmartBLEHealthDeviceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23SmartBLEHealthDeviceKit16HealthBLEManagerC",
+        "mangledName": "$s23SmartBLEHealthDeviceKit16HealthBLEManagerC",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SmartBLEHealthDeviceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Models\/HealthData.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 12,
+      "value": "\"Heart Rate\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Models\/HealthData.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 9,
+      "value": "\"Glucose\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Core\/BluetoothManager.swift",
+      "kind": "Array",
+      "offset": 820,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Core\/BluetoothManager.swift",
+      "kind": "Array",
+      "offset": 886,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Core\/BluetoothManager.swift",
+      "kind": "Dictionary",
+      "offset": 941,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Core\/BluetoothManager.swift",
+      "kind": "Dictionary",
+      "offset": 1055,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Core\/BluetoothManager.swift",
+      "kind": "Dictionary",
+      "offset": 1123,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Devices\/HeartRateDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 852,
+      "length": 8,
+      "value": "\"0x180D\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Devices\/HeartRateDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 8,
+      "value": "\"0x2A37\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Utilities\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 21,
+      "value": "\"yyyy-MM-dd HH:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Devices\/GlucoseMeterDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 961,
+      "length": 8,
+      "value": "\"0x1808\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Devices\/GlucoseMeterDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1121,
+      "length": 8,
+      "value": "\"0x2A18\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Core\/SecurityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 31,
+      "value": "\"com.vishal.healthBLE.keychain\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Core\/SecurityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 36,
+      "value": "\"com.vishal.healthBLE.encryptionKey\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Utilities\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 6,
+      "value": "\"180D\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Utilities\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 6,
+      "value": "\"1808\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Utilities\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 6,
+      "value": "\"2A37\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/Vishal\/SmartBLEHealthDeviceKit\/SmartBLEHealthDeviceKit\/Utilities\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 590,
+      "length": 6,
+      "value": "\"2A18\""
+    }
+  ]
+}
